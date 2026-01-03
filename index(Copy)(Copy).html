@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeo Onee - Profil TikTok</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #ffffff;
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 400px;
+            width: 100%;
+            background-color: #f9f9f9;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            padding: 40px 30px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .profile-pic {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid #fff;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin: 0 auto 25px;
+            display: block;
+        }
+        
+        .username {
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #000;
+        }
+        
+        .handle {
+            color: #666;
+            font-size: 17px;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+        
+        .bio {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 35px;
+            font-size: 16px;
+            padding: 0 10px;
+        }
+        
+        .tiktok-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #000000;
+            color: white;
+            text-decoration: none;
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            margin: 10px 0 30px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 260px;
+        }
+        
+        .tiktok-btn:hover {
+            background-color: #25F4EE;
+            color: #000;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(37, 244, 238, 0.2);
+        }
+        
+        .tiktok-btn i {
+            margin-right: 12px;
+            font-size: 22px;
+        }
+        
+        .credit {
+            margin-top: 30px;
+            color: #888;
+            font-size: 15px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        
+        .credit a {
+            color: #FE2C55;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .credit a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.postimg.cc/8cyw4gyt/26180ef282a223acd78aa93c6e18811e.jpg" alt="Zeo Onee" class="profile-pic">
+        
+        <h1 class="username">Zeo Onee</h1>
+        <p class="handle">@zeo_onee</p>
+        
+        <p class="bio">
+            
+       <br>
+  
+        </p>
+        
+        <a href="https://www.tiktok.com/@zeo_onee?_r=1&_t=ZS-92i9NXIdp12" target="_blank" class="tiktok-btn">
+            <i class="fab fa-tiktok"></i> My Tiktok
+        </a>
+    </div>
+    
+    <div class="credit">
+        Powered By <a href="https://tiktok.com/@a_onee7" target="_blank">@a_onee7</a>
+    </div>
+
+    <script>
+        // Animasi sederhana untuk tombol
+        const tiktokBtn = document.querySelector('.tiktok-btn');
+        
+        tiktokBtn.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-3px)';
+        });
+        
+        tiktokBtn.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+    </script>
+</body>
+</html>
